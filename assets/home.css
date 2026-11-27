@@ -114,3 +114,6 @@
 .proj-top{margin-top:6px}
 .proj-go{margin-bottom:16px}
 @media(prefers-reduced-motion:reduce){.proj-tile svg{transition:none!important}.proj:hover .proj-tile svg{transform:none}}
+
+/* globo dentro da coluna de conteúdo (64rem), alinhado à borda direita dos cards */
+.proj-wrap~.hero-globe,.home-hero:has(.proj-wrap) .hero-globe{right:max(28px,calc((100% - 64rem)/2 + 24px))}
